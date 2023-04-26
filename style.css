@@ -253,6 +253,14 @@ a
   top: 80px;
   font-size: 18px;
   font-weight: bold;
+  visibility: hidden;
+  
+}
+
+@media query {
+  .addtask1 {
+    display: none;
+  }
 }
 
 .plus2 {
