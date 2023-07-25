@@ -1,14 +1,19 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #F7F7F7;
-  top: 0px;
-  left: 0px;
-  width: 1300px;
-  height: 100px;
+  width: 1250px;
+  height: 80px;
+  left: 0;
+  right: 0;
   box-shadow: 0px 3px 30px #7B7B7B29;
   position: absolute;
-  right: 10px;
-  flex-direction: column;
-
+  padding-right: 52px;
+  overflow-x: hidden;
 }
 
 .header {
@@ -21,7 +26,7 @@ body {
 
 .navbar {
   position: absolute;
-  width: 360px;
+  width: 400px;
   height: 60px;
   top: 20px;
   left: 15px;
@@ -47,9 +52,9 @@ body {
 }
 
 .back {
-  left: 570px;
+  left: 540px;
   position: absolute;
-  top: 180px;
+  top: 200px;
 }
 
 .icon {
@@ -128,6 +133,26 @@ body {
   border-radius: 5%;
 
 }
+.round4 {
+  position: absolute;
+  box-shadow: -10px -10px 10px 10px #EDEDED;
+  left: 50px;
+  color: #C2C2C2;
+  border-radius: 5%;
+  top: 500px;
+  
+
+}
+
+.round5 {
+  position: absolute;
+  box-shadow: -10px -10px 10px 10px #EDEDED;
+  top: 500px;
+   left: 400px;
+  color: #C2C2C2;
+  border-radius: 5%;
+  
+}
 
 .box1 {
   width: 300px;
@@ -135,7 +160,7 @@ body {
   border-radius: 8%;
   border: 1px solid black;
   background-color: #67676729;
-  ;
+  margin: 0;
 }
 
 .addround1 {
@@ -147,6 +172,7 @@ body {
   font-size: 20px;
   text-align: left;
   top: 270px;
+  
 
 }
 
@@ -358,7 +384,18 @@ a
   .back {
     left: 100px;
     position: absolute;
-    top: 140px;
+    top: 170px;
   }
+
+  .round4 {
+   display: none;
+    
+  
+  }
+  
+  .round5 {
+    display: none;
+  }
+  
 
 }
