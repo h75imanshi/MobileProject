@@ -305,7 +305,7 @@ a
 
 @media screen and (min-width:250px) and (max-width:500px) {
   body {
-    width: 350px;
+    width: 380px;
     height: 50px;
     display: block;
 
@@ -338,8 +338,7 @@ a
   .addround1 {
     left: 50px;
     top: 270px;
-    overflow:hidden;
-
+   overflow: hidden;
   }
 
   .addbox {
