@@ -338,7 +338,7 @@ a
   .addround1 {
     left: 50px;
     top: 270px;
-    overflow-x:hidden;
+    overflow:hidden;
 
   }
 
